@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PremierLEague")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PremierLeague")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("PremierLEague")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PremierLEague")]
+[assembly: System.Reflection.AssemblyProductAttribute("PremierLeague")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PremierLeague")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.

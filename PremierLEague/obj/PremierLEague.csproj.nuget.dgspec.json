@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLEague\\PremierLEague.csproj": {}
+    "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLeague\\PremierLeague.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLEague\\PremierLEague.csproj": {
+    "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLeague\\PremierLeague.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLEague\\PremierLEague.csproj",
-        "projectName": "PremierLEague",
-        "projectPath": "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLEague\\PremierLEague.csproj",
+        "projectUniqueName": "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLeague\\PremierLeague.csproj",
+        "projectName": "PremierLeague",
+        "projectPath": "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLeague\\PremierLeague.csproj",
         "packagesPath": "C:\\Users\\kljaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLEague\\obj\\",
+        "outputPath": "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLeague\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kljaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
