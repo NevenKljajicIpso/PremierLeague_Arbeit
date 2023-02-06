@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "QvgVJKcvUaBG2eC6uuentXcKLX/uiJZab9XxpOt4812kuJFKyGCvt/DiIY8oRp2lywfslKyrNM/da9qxdsYR2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kljaj\\OneDrive - ipso! Bildung\\5. Semester\\Datenbanktechnologie 3\\PremierLeague_Arbeit\\PremierLEague\\PremierLEague.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kljaj\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\kljaj\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kljaj\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\kljaj\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\kljaj\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\kljaj\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
