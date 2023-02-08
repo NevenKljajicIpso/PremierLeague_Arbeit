@@ -9,5 +9,5 @@ CREATE (t2:Team {teamID: 2, teamName: "Manchester United"})-[:HAS_HOME]->(s1:Sta
 (u4:User {userID: 4, userName: "Alan"}),
 (u5:User {userID: 5, userName: "Joe"})
 
-// MATCH (p)
-// RETURN p;
+// MATCH (n)
+// RETURN n;
