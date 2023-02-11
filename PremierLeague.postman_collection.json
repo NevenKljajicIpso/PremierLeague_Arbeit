@@ -1,0 +1,416 @@
+{
+	"info": {
+		"_postman_id": "6c1327fb-3827-46dd-82c3-a24dd9135504",
+		"name": "Premier League",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25676020"
+	},
+	"item": [
+		{
+			"name": "City Requests",
+			"item": [
+				{
+					"name": "POST City",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"cityID\": 7,\r\n  \"cityName\": \"Leicesterr\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/City",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"City"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE CityByID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/City/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"City",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET City",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/City/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"City",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT City",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"cityID\": 7,\r\n  \"cityName\": \"Leicester\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/City/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"City",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Stadium Requests",
+			"item": [
+				{
+					"name": "GET Stadiums",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/Stadium",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Stadium"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Stadium",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"stadiumID\": 8,\r\n  \"stadiumName\": \"King Power Stadiumm\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/Stadium",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Stadium"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Stadium",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"stadiumID\": 8,\r\n  \"stadiumName\": \"King Power Stadium\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/Stadium/8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Stadium",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Stadium",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/Stadium/8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Stadium",
+								"8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Team Requests",
+			"item": [
+				{
+					"name": "GET Teams",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/Team/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Team",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Team",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"teamID\": 6,\r\n  \"teamName\": \"Leicesterr City F.C.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/Team",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Team"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Team",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"teamID\": 6,\r\n  \"teamName\": \"Leicester City F.C.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/Team/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Team",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Team",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/Team/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"Team",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User Requests",
+			"item": [
+				{
+					"name": "GET Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/User",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userID\": 6,\r\n  \"userName\": \"Nevenn\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/User",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userID\": 6,\r\n  \"userName\": \"Neven\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7274/User/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"User",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7274/User/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7274",
+							"path": [
+								"User",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
